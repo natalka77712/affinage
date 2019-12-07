@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="293.179" height="62" viewBox="0 0 293.179 62">
+  <g id="Group_4" data-name="Group 4" transform="translate(-930 -721)">
+    <path d="M16.5-1.175A11.017,11.017,0,0,1,13.425.1a14.839,14.839,0,0,1-3.55.4,9.123,9.123,0,0,1-3.6-.7,8.792,8.792,0,0,1-2.85-1.913A8.74,8.74,0,0,1,1.55-4.963,9.191,9.191,0,0,1,.875-8.5a9.375,9.375,0,0,1,.588-3.35,8.018,8.018,0,0,1,1.675-2.7,7.738,7.738,0,0,1,2.6-1.8A8.5,8.5,0,0,1,9.125-17a10.291,10.291,0,0,1,3.85.612,5.8,5.8,0,0,1,2.2,1.412,2.265,2.265,0,0,1,.375.75,5.979,5.979,0,0,1,.188.887,8.706,8.706,0,0,1,.075.938c.008.317.012.9.012.9S17.033-8.65,18.1-8.65v.625a1.318,1.318,0,0,0-1.225.625A3.413,3.413,0,0,0,16.5-5.65Z" transform="translate(1028 751)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1" opacity="0.3"/>
+    <g id="Group_6" data-name="Group 6">
+      <text transform="translate(930 743)" font-size="25" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+      <text transform="translate(1143 777)" font-size="25" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="0" y="0">E</tspan></text>
+      <text transform="translate(1031 750)" font-size="25" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="0" y="0">G</tspan></text>
+      <path  d="M300.3-815.109c-.411,0-.822-.205-1.233-.205a4.491,4.491,0,0,1-1.027-.616,4.3,4.3,0,0,1-.822-1.232,11.463,11.463,0,0,1-1.027-1.643l-7.6-18.694h-1.027L277.5-814.287h22.8v-.822" transform="translate(922.877 1572.314)" fill="#131212" fill-rule="evenodd"/>
+      <path data-name="path14" stroke="#000" d="M300.3-815.109c-.411,0-.822-.205-1.233-.205a4.491,4.491,0,0,1-1.027-.616,4.3,4.3,0,0,1-.822-1.232,11.463,11.463,0,0,1-1.027-1.643l-7.6-18.694h-1.027L277.5-814.287h22.8v-.822" fill="none" transform="translate(687.877 1591.314)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
