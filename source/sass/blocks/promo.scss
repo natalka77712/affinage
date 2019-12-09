@@ -1,15 +1,15 @@
 .promo {
-  background: linear-gradient(to right, #fbfbfb 50%, white 50%);
+  background: linear-gradient(to right, $smoky 50%, white 50%);
 }
 
 .promo__header {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   margin: -148px 0 0 -505px;
   font-size: 140px;
   line-height: 152px;
-  letter-spacing: 50px;
+  letter-spacing: 49px;
   color: white;
   text-transform: uppercase;
   z-index: 4;
@@ -30,13 +30,13 @@
 
   &::before {
     content: "(1)";
-    top: -141px;
+    top: -144px;
     width: 15px;
   }
 
   &::after {
     content: "(3)";
-    top: -61px;
+    top: -64px;
     width: 18px;
   }
 }
@@ -73,18 +73,18 @@
   z-index: 1;
 
   &--A {
-    bottom: -41px;
-    left: 260px;
+    bottom: -39px;
+    left: 262px;
   }
 
   &--G {
     left: 344px;
-    bottom: -197px;
+    bottom: -201px;
   }
 
   &--E {
-    left: 437px;
-    bottom: -119px;
+    left: 436px;
+    bottom: -122px;
     clip: rect(0, 72px, 66px, 0);
   }
 }
@@ -96,9 +96,8 @@
 
 .promo__wreath {
   position: absolute;
-  left: calc(50% - 196px / 2);
-  top: 69%;
-  margin-top: -55px;
+  left: calc(50% - 197px / 2);
+  top: 70%;
   height: 124px;
   overflow: hidden;
 
@@ -106,14 +105,14 @@
     content: "";
     position: absolute;
     height: 10px;
-    background-color: #f7e611;
-    width: 213px;
+    background-color: $bright-yellow;
+    width: 217px;
     bottom: 0;
-    left: -10px;
+    left: -16px;
   }
 
   &-icon {
-    margin-left: 19px;
+    margin-left: 15px;
   }
 }
 
@@ -123,26 +122,26 @@
 
 .promo__company-left {
   margin-left: 111px;
+  z-index: 2;
 }
 
 .promo__company-right {
-  margin-left: 393px;
+  margin-left: 391px;
   margin-top: 28px;
 }
 
 @media (max-width: $desktop-width) {
   .promo {
-    overflow: hidden;
     background: transparent;
     background-color: white;
   }
 
   .promo__header {
-    top: 50%;
+    top: 68%;
     left: 54%;
-    margin: -148px 0 0 -384px;
-    font-size: 80px;
-    line-height: 92px;
+    margin: -148px 0 0 -371px;
+    font-size: 68px;
+    line-height: 82px;
   }
 
   .promo__description {
@@ -175,7 +174,7 @@
   }
 
   .promo__wreath {
-    margin-top: -38px;
+    top: 94%;
     left: calc(50% - 168px / 2);
     height: 158px;
     clip: rect(0, 180px, 80px, 0);
@@ -217,17 +216,17 @@
     line-height: 75px;
 
     &--A {
-      left: 72px;
-      bottom: -231px;
+      left: 70px;
+      bottom: -233px;
     }
 
     &--E {
-      left: 217px;
-      bottom: -136px;
+      left: 218px;
+      bottom: -138px;
     }
 
     &--G {
-      left: 150px;
+      left: 148px;
       bottom: -217px;
       clip: rect(0, 46px, 46px, 0);
     }
@@ -241,12 +240,12 @@
 
   .promo__black-triangle {
     right: 27px;
-    top: 228px;
+    top: 165px;
   }
 
   .promo__transparent-triangle {
     left: 44px;
-    top: 515px;
+    top: 453px;
   }
 
   .promo__wreath {
@@ -261,6 +260,7 @@
     }
 
     &-icon {
+      margin-left: 18px;
       width: 160px;
       height: 160px;
     }

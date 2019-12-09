@@ -1,0 +1,13 @@
+.page-main {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 50%;
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(to right, white 0%, rgba(253, 253, 253, 0.1) 50%, rgba(0, 0, 0, 0.01) 100%);
+  }
+}

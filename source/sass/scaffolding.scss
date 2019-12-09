@@ -31,6 +31,10 @@ img {
   clip: rect(0 0 0 0);
 }
 
+.js-scroll {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 1440px;
   margin-right: auto;

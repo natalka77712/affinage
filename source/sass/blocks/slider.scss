@@ -21,7 +21,7 @@
 
 .slider__item-second-numder {
   position: absolute;
-  left: 480px;
+  left: 481px;
   top: 30px;
   margin: 0;
   font-size: 28px;
@@ -36,7 +36,7 @@
 
 .slider__poligon {
   position: absolute;
-  top: 317px;
+  top: 218px;
   right: 60%;
   width: 282px;
   height: 178px;
@@ -51,7 +51,7 @@
 .slider__circle {
   position: absolute;
   right: 52.5%;
-  top: 23%;
+  top: 17%;
   padding: 28px 7px 0 24px;
   width: 100px;
   height: 100px;
@@ -86,9 +86,10 @@
 
 .slider__wrapper {
   position: absolute;
+  box-shadow: 0 0 103px 0 rgba(0, 0, 0, 0.1);
 
   &--right {
-    top: 20%;
+    top: 12%;
   }
 
   &::after {
@@ -112,7 +113,7 @@
   flex-direction: row-reverse;
   width: 138px;
   height: 383px;
-  background-color: #ebdd33;
+  background-color: $pineapple;
   z-index: 3;
 }
 
@@ -185,6 +186,22 @@
   }
 }
 
+.slider__image--first-animation-fast {
+  animation: bounce-left 2s ease-in-out;
+}
+
+.slider__image--second-animation-fast {
+  animation: bounce-right 2s ease-in-out;
+}
+
+.slider__image--first-animation-slow {
+  animation: bounce-left 6s ease-in;
+}
+
+.slider__image--second-animation-slow {
+  animation: bounce-right 6s ease-in;
+}
+
 @media (max-width: $desktop-width) {
   .slider__item-second-numder,
   .slider__circle,
@@ -207,26 +224,22 @@
   }
 
   .slider__wrapper--right {
-    top: 25%;
+    top: 21%;
 
     &::after {
       background-color: rgba(247, 230, 17, 0.6);
     }
   }
 
-  .slider__toggle-buttons {
-    right: -7%;
-  }
-
   .slider__button {
     bottom: 101px;
 
     &--previous {
-      right: 367px;
+      right: 284px;
     }
 
     &--next {
-      right: 159px;
+      right: 104px;
     }
   }
 
@@ -249,6 +262,7 @@
 @media (max-width: $tablet-width) {
   .slider__wrapper {
     position: relative;
+    box-shadow: none;
   }
 
   .slider {
@@ -268,7 +282,7 @@
   .slider__toggle-buttons {
     width: 87%;
     position: absolute;
-    bottom: 54%;
+    bottom: 28%;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -282,9 +296,9 @@
 
   .slider__poligon {
     display: block;
-    width: 155px;
+    width: 156px;
     height: 320px;
-    top: -111px;
+    top: -176px;
     right: 0;
     transform: rotate(0);
   }

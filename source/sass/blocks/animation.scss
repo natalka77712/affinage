@@ -1,0 +1,43 @@
+@keyframes bounce-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-2000px);
+  }
+
+  70% {
+    transform: translateX(30px);
+  }
+
+  90% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(2000px);
+  }
+
+  70% {
+    transform: translateX(-30px);
+  }
+
+  90% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
